@@ -79,7 +79,7 @@ Repayment confirmation can take 1–2 business days to process. If locks persist
 2. Choose an action: add collateral, partial repayment, or contact your advisor
 3. Do not ignore follow-up notifications, escalation timelines are in your term sheet
 
-See [What happens if the market drops](./how-it-works.md#what-happens-if-the-market-drops).
+See [Step 6: Handle market movements](./how-it-works.md#step-6-handle-market-movements).
 
 ### Alert seems incorrect
 

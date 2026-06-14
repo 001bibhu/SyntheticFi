@@ -1,143 +1,151 @@
 # Use cases
 
-SyntheticFi helps investors and advisors solve specific cash needs without selling appreciated holdings. Below are the most common scenarios, with considerations for each.
+SyntheticFi helps investors and advisors access liquidity for specific needs without selling investment holdings.
+
+Each use case below outlines:
+
+- When to use SyntheticFi
+- How it helps
+- Key considerations
 
 ---
 
 ## Buying a home
 
-### The challenge
+### When to use
 
-A client has significant wealth in a taxable brokerage account but limited cash for a down payment. Selling stocks triggers capital gains and removes assets from a long-term allocation.
+- Investor has significant portfolio value but limited cash for a down payment
+- Selling investments would trigger capital gains or disrupt allocation
 
 ### How SyntheticFi helps
 
-Portfolio-backed financing provides **liquidity for the down payment and closing costs** while the investment strategy stays in place.
+- Provides cash for down payment and closing costs
+- Keeps the investment portfolio intact
 
-### Considerations
+### Key considerations
 
-| Factor | Guidance |
-|--------|----------|
-| **Loan coordination** | Works alongside traditional mortgages; disclose to your lender as required |
-| **Term alignment** | Match financing term to home purchase timeline |
-| **Margin risk** | Maintain buffer above minimum collateral during the home-buying process |
-| **Tax planning** | Consult CPA; SyntheticFi financing is not a substitute for tax advice |
-
-**Typical profile:** HNW investor or advisor-led client; portfolio $1M+; down payment $200K–$500K.
+- Coordinate with mortgage lender as required
+- Align financing term with home purchase timeline
+- Maintain a buffer above minimum collateral requirements
+- Consult a tax advisor for planning
 
 ---
 
 ## Paying taxes
 
-### The challenge
+### When to use
 
-Large tax bills (estimated payments, extension balances, or unexpected liabilities) arrive on fixed dates. Selling investments to pay taxes can be inefficient if lots are highly appreciated.
+- Large tax payments due (estimated taxes, extensions, or unexpected liabilities)
+- Portfolio contains appreciated assets that are not ideal to sell
 
 ### How SyntheticFi helps
 
-Access cash **by the payment deadline** without realizing gains on core holdings. Repay from future income, portfolio dividends, or planned rebalancing.
+- Provides liquidity to meet tax deadlines
+- Avoids immediate realization of capital gains
 
-### Considerations
+### Key considerations
 
-- Size financing to cover tax amount plus a modest buffer
-- Shorter terms (3–12 months) often fit tax timing
-- Coordinate with CPA on payment timing and deductibility questions
+- Size financing to cover tax amount plus buffer
+- Short-term financing (3–12 months) is common
+- Coordinate with CPA on timing and tax implications
 
 ---
 
 ## Business funding
 
-### The challenge
+### When to use
 
-Entrepreneurs and executives hold wealth in public securities but need capital for a business investment, acquisition, or operating bridge, without liquidating a concentrated or legacy position.
+- Investor needs capital for a business investment or operating expenses
+- Portfolio holds long-term or concentrated positions
 
 ### How SyntheticFi helps
 
-Structured financing unlocks **lump-sum cash** for business purposes while preserving equity exposure.
+- Unlocks capital without requiring liquidation of holdings
+- Supports funding for business opportunities
 
-### Considerations
+### Key considerations
 
-- Business use may require additional disclosures
-- Concentrated stock positions may face lower advance rates
-- Advisor involvement recommended for suitability documentation
+- Additional disclosures may be required for business use
+- Concentrated positions may reduce borrowing capacity
+- Advisor involvement recommended
 
 ---
 
 ## Bridge financing
 
-### The challenge
+### When to use
 
-Short-term gap between two events: selling one property before buying another, waiting on a liquidity event, or covering expenses until a bonus or distribution arrives.
+- Temporary gap between financial events (e.g., property sale, bonus, liquidity event)
 
 ### How SyntheticFi helps
 
-**Temporary liquidity** with a defined term and fixed cost, designed to be repaid when the next event completes.
+- Provides short-term liquidity with a defined repayment timeline
 
-### Considerations
+### Typical scenarios
 
-| Bridge type | Typical term |
-|-------------|--------------|
-| Real estate transition | 6–18 months |
-| Pending liquidity event | 3–12 months |
-| Lifestyle or emergency gap | 3–6 months |
+- Real estate transition: 6–18 months
+- Pending liquidity event: 3–12 months
+- Short-term expenses: 3–6 months
 
-Bridge financing is not indefinite leverage. Plan repayment before origination.
+### Key considerations
+
+- Define repayment source before starting
+- Not intended for indefinite financing
 
 ---
 
 ## Avoiding stock liquidation
 
-### The challenge
+### When to use
 
-An investor wants or needs cash but believes strongly in retaining specific holdings, low basis stock, employer equity, or a concentrated legacy position.
+- Investor wants to retain specific holdings (low-basis stock, employer equity, concentrated positions)
+- Selling would impact long-term strategy or tax efficiency
 
 ### How SyntheticFi helps
 
-The portfolio (including concentrated positions, subject to eligibility) serves as collateral. The investor receives cash **without selling the core position**.
+- Uses the portfolio as collateral
+- Provides cash without selling core positions
 
-### Considerations
+### Key considerations
 
-- **Concentration limits** may cap financing on single-name holdings
-- **Margin sensitivity** is higher when portfolio is less diversified
-- **Estate and gifting plans** may interact with pledged collateral, consult advisors
-
-This is SyntheticFi's core value proposition: **liquidity without liquidation**.
+- Concentration limits may apply
+- Margin sensitivity may be higher
+- Estate or gifting plans may be affected
 
 ---
 
 ## Comparison at a glance
 
 | Use case | Typical term | Primary benefit |
-|----------|--------------|-----------------|
-| Home purchase | 6–24 months | Down payment without selling investments |
-| Tax payments | 3–12 months | Meet IRS deadlines without triggering gains |
-| Business funding | 12–36 months | Capital for opportunities without exit |
-| Bridge financing | 3–18 months | Short-term gap coverage |
-| Avoid liquidation | Varies | Preserve strategy and tax efficiency |
+| -------- | ------------ | ----------------------------- |
+| Home purchase | 6–24 months | Down payment without selling assets |
+| Tax payments | 3–12 months | Meet obligations without triggering gains |
+| Business funding | 12–36 months | Access capital while staying invested |
+| Bridge financing | 3–18 months | Cover short-term gaps |
+| Avoid liquidation | Varies | Preserve investment strategy |
 
 ---
 
 ## Is SyntheticFi right for your situation?
 
-SyntheticFi works best when:
+### Works best when
 
 - Portfolio value supports the required cash amount
-- The need is **defined** (amount and approximate timeline)
-- You understand and can respond to **margin requirements**
-- An advisor or you personally can monitor the portfolio during the term
+- Cash need has a defined timeline
+- You can monitor and respond to margin requirements
 
-It may **not** be appropriate when:
+### May not be appropriate when
 
-- Portfolio is heavily illiquid or ineligible assets
-- Cash need is indefinite with no repayment plan
-- Investor cannot tolerate any risk of collateral action
+- Portfolio contains mostly illiquid or ineligible assets
+- Cash need is indefinite
+- You cannot tolerate potential collateral actions
 
 ---
 
 ## Next steps
 
-- [How it works](./how-it-works.md), Mechanics and lifecycle
-- [Getting started](./getting-started.md), Onboarding
-- [FAQ](./faq.md), Common questions by scenario
+- [How it works](./how-it-works.md): Mechanics and lifecycle
+- [Getting started](./getting-started.md): Onboarding
+- [FAQ](./faq.md): Common questions by scenario
 
 Discuss your specific situation with your financial advisor or [contact support](../support/contact-support.md).

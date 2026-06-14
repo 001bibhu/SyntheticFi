@@ -11,6 +11,10 @@ import ApiCodeSamples from './ApiCodeSamples.vue'
 import ApiTryIt from './ApiTryIt.vue'
 import ApiSection from './ApiSection.vue'
 import ApiEndpoint from './ApiEndpoint.vue'
+import RoleTabs from './RoleTabs.vue'
+import OverviewAudienceTabs from './OverviewAudienceTabs.vue'
+import AccordionGroup from './AccordionGroup.vue'
+import AccordionItem from './AccordionItem.vue'
 import './custom.css'
 
 export default {
@@ -27,6 +31,10 @@ export default {
     app.component('ApiTryIt', ApiTryIt)
     app.component('ApiSection', ApiSection)
     app.component('ApiEndpoint', ApiEndpoint)
+    app.component('RoleTabs', RoleTabs)
+    app.component('OverviewAudienceTabs', OverviewAudienceTabs)
+    app.component('AccordionGroup', AccordionGroup)
+    app.component('AccordionItem', AccordionItem)
   },
   Layout() {
     return h(DefaultTheme.Layout, null, {

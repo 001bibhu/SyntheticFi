@@ -28,7 +28,7 @@ Taxable brokerage accounts and certain trust structures at [supported brokerages
 
 ### What does "locking" my portfolio mean?
 
-A portion of your holdings is pledged as collateral and cannot be sold or transferred until financing is repaid. See [What locking means](./how-it-works.md#what-locking-means).
+A portion of your holdings is pledged as collateral and cannot be sold or transferred until financing is repaid. See [Step 2: Lock a portion of the portfolio](./how-it-works.md#step-2-lock-a-portion-of-the-portfolio).
 
 ### How is the cost determined?
 
@@ -44,7 +44,7 @@ Box spreads are one type of public-market instrument SyntheticFi may use to stru
 
 ### What happens if my portfolio drops in value?
 
-SyntheticFi monitors collateral coverage. If value falls below required thresholds, you receive a **margin notification** with options: add collateral, repay partially, or restructure. See [Market drops](./how-it-works.md#what-happens-if-the-market-drops).
+SyntheticFi monitors collateral coverage. If value falls below required thresholds, you receive a **margin notification** with options: add collateral, repay partially, or restructure. See [Step 6: Handle market movements](./how-it-works.md#step-6-handle-market-movements).
 
 ### Can I lose more than my collateral?
 

@@ -1,210 +1,174 @@
 # How it works
 
-This guide explains how SyntheticFi turns an investment portfolio into cash, what happens to your holdings, how financing is structured, and what to expect from start to finish.
+This page explains how SyntheticFi converts portfolio value into cash, what happens to your holdings during a financing term, and how the process ends.
 
 ---
 
 ## The big picture
 
-SyntheticFi follows a consistent pattern:
+SyntheticFi uses your investment portfolio as collateral, structures financing through public markets, and delivers cash while your assets stay invested.
 
 ```
-Portfolio connected → Collateral verified → Financing structured → Cash delivered
-        ↓
-Active term (monitoring) → Repayment → Collateral released
+Portfolio → Collateral → Financing → Cash
+     ↓
+Active term → Repayment → Release
 ```
 
-Your portfolio stays invested. SyntheticFi uses it as backing for structured financing rather than requiring a sale.
+Your portfolio remains invested throughout the term. SyntheticFi pledges eligible holdings as collateral instead of requiring a sale.
 
 ---
 
-## Portfolio as collateral
+## Steps
 
-### What "collateral" means here
+<AccordionGroup>
 
-Your brokerage or custodian account holds stocks, ETFs, and other eligible assets. SyntheticFi evaluates:
+<AccordionItem title="Step 1: Use your portfolio as collateral" id="step-1-use-your-portfolio-as-collateral">
 
-- **Total portfolio value**, Current market value of eligible holdings
-- **Composition**, Which assets qualify (some holdings may be excluded)
-- **Concentration**, Over-weighted single positions may require adjustment
-- **Liquidity**, How easily holdings can be valued and monitored
+SyntheticFi evaluates your connected brokerage or custodian account to determine financing capacity.
 
-Based on this review, SyntheticFi determines how much financing the portfolio can support, similar in concept to a **loan-to-value (LTV) ratio**, but applied to securities rather than real estate.
+**Evaluation criteria:**
+
+- **Portfolio value**, total market value of eligible holdings
+- **Eligibility**, which securities qualify under program rules
+- **Concentration**, limits on single-position weight
+- **Liquidity**, ability to value and monitor holdings reliably
+
+Based on this review, SyntheticFi sets the maximum financing amount supported by the portfolio.
 
 ### What stays the same
 
 - You remain the beneficial owner of your investments
-- Dividends and corporate actions generally flow to you (subject to program terms)
+- Dividends and corporate actions generally flow to you (per program terms)
 - Your advisor retains visibility per firm permissions
 
 ### What changes
 
-- A defined portion of the portfolio is **pledged** to secure the financing
-- Those pledged holdings are **locked** for the financing term (see below)
-- You must maintain sufficient portfolio value to satisfy margin requirements
+- A defined portion of the portfolio is pledged as collateral
+- Pledged holdings are locked for the financing term
+- Portfolio value must stay above margin requirements
 
----
+</AccordionItem>
 
-## What "locking" means
+<AccordionItem title="Step 2: Lock a portion of the portfolio" id="step-2-lock-a-portion-of-the-portfolio">
 
-**Locking** restricts certain actions on pledged holdings during an active financing term.
+**Locking** restricts certain actions on pledged holdings while financing is active.
 
-While locked, you typically **cannot**:
+**What you cannot do:**
 
-- Sell the pledged securities
-- Transfer them to another account
-- Use them as collateral elsewhere (without SyntheticFi approval)
+- Sell pledged securities
+- Transfer pledged holdings to another account
+- Use pledged holdings as collateral elsewhere without approval
 
-You **can** usually:
+**What you can still do:**
 
 - View positions and performance
 - Receive dividends (program-dependent)
-- Work with your advisor to add collateral or adjust the structure if needed
+- Add collateral or adjust the structure with your advisor
 
-Locking protects the financing structure. When you **repay and close**, locks are removed and full control returns to normal account operations.
+Locks are removed after full repayment and closure.
 
-```
-Before financing:     [ Portfolio, full flexibility ]
-During financing:     [ Portfolio, pledged portion LOCKED ]
-After repayment:      [ Portfolio, full flexibility restored ]
-```
+</AccordionItem>
 
----
+<AccordionItem title="Step 3: Structure the financing" id="step-3-structure-the-financing">
 
-## How SyntheticFi structures financing
+SyntheticFi creates financing using public market instruments. You specify the cash amount, intended use, and preferred term. SyntheticFi matches the request to portfolio capacity and executes the structure.
 
-SyntheticFi is a **structuring platform**, not a simple line of credit from a bank.
+One common approach is a **box spread**, an options-based strategy that produces a defined cash amount and a defined repayment at term end.
 
-### Step 1: Define the need
+### Box spread (simplified)
 
-You specify (with your advisor):
+A box spread combines four options positions at set prices with the same expiration.
 
-- **Cash amount** required
-- **Intended use** (e.g., home purchase, taxes)
-- **Preferred term** or repayment timeline
+- Buy call
+- Sell call
+- Buy put
+- Sell put
 
-### Step 2: Match to portfolio capacity
+**Outcome:**
 
-SyntheticFi calculates maximum eligible financing based on portfolio value, haircuts on specific holdings, and firm-level limits.
+- Cash today
+- Fixed repayment later
 
-### Step 3: Structure in public markets
+This structure produces a predictable outcome regardless of market direction.
 
-SyntheticFi executes a financing structure through public markets. This may involve options-based strategies (such as box spreads) that produce a **defined cash amount** and **defined cost** for the term.
+SyntheticFi and approved counterparties handle execution. You do not place trades yourself.
 
-You do not trade these instruments yourself. SyntheticFi's infrastructure and approved counterparties handle execution, subject to compliance and risk controls.
+</AccordionItem>
 
-### Step 4: Deliver cash
+<AccordionItem title="Step 4: Receive cash" id="step-4-receive-cash">
 
-Once structured and confirmed, cash is sent to the designated account, often the same brokerage account or a linked bank account, depending on program setup.
+After the structure is confirmed and placed, cash is delivered to your designated account (brokerage or linked bank, depending on program setup).
 
-**No deep math required on your part.** You receive disclosures showing cash received, total cost, key dates, and margin requirements.
+**At execution:**
 
----
+- Cash delivered
+- Terms disclosed: amount, total cost, term dates, and margin requirements
 
-## Financing lifecycle
+You do not execute trades or manage options directly. Disclosures document what you receive and what you owe.
 
-### Phase 1: Origination
+</AccordionItem>
 
-| Step | What happens |
-|------|----------------|
-| Account linking | Connect brokerage/custodian via secure integration |
-| KYC & compliance | Identity verification and regulatory checks |
-| Term sheet | Review amount, cost, term, and margin thresholds |
-| Acceptance | Client (and advisor, if applicable) confirms |
-| Execution | Structure is placed; collateral is locked |
+<AccordionItem title="Step 5: Monitor during the term" id="step-5-monitor-during-the-term">
 
-**Typical timeline:** 1–5 business days for standard integrations; longer for manual or custom setups.
+During the active term, SyntheticFi monitors portfolio value and financing status on an ongoing basis.
 
-### Phase 2: Active term
+- Daily or intraday portfolio monitoring
+- Email and in-platform alerts as value approaches thresholds
+- Statements showing outstanding balance and collateral status
+- Advisor dashboard visibility for firm-managed accounts
 
-During the financing term:
+</AccordionItem>
 
-- **Portfolio is monitored** daily (or intraday for large positions)
-- **Value alerts** notify you if the portfolio approaches margin thresholds
-- **Statements** show outstanding balance, cost accrual (if applicable), and collateral status
-- **Advisor dashboard** provides firm-level visibility (see [Admin guide](./admin-guide.md))
+<AccordionItem title="Step 6: Handle market movements" id="step-6-handle-market-movements">
 
-### Phase 3: Repayment and closure
+If portfolio value declines, collateral coverage weakens. SyntheticFi tracks this through a margin framework.
 
-Repayment options depend on program terms:
+**Margin states:**
 
-- **Full repayment** at term end (most common)
-- **Early repayment** (may be allowed with adjusted economics)
-- **Roll or extend** (subject to re-qualification and new terms)
+- **Healthy**, portfolio comfortably covers the financing
+- **Warning**, coverage approaching minimum; action recommended
+- **Margin call**, coverage below required level; action required
 
-Upon full repayment:
+**User actions:**
 
-1. Financing structure is unwound
-2. Collateral locks are released
-3. Confirmation is sent to client and advisor
-4. Account returns to standard operating status
+- Add collateral
+- Partial repayment
+- Restructure (where available)
 
----
+If no action is taken, pledged holdings may be liquidated as a last resort to restore required coverage.
 
-## What happens if the market drops
+</AccordionItem>
 
-Portfolio value fluctuates. If your portfolio **declines**, collateral coverage weakens. SyntheticFi handles this through a **margin framework**.
+<AccordionItem title="Step 7: Repay and close" id="step-7-repay-and-close">
 
-### Margin thresholds (simplified)
+At term end, you repay the principal plus the agreed fixed cost via ACH, brokerage cash journal, or wire (depending on program terms).
 
-```
-Healthy        →  Portfolio comfortably covers financing
-Warning        →  Approaching minimum coverage, action recommended
-Margin call    →  Coverage below required level, action required
-Remediation    →  Add collateral, partial repayment, or restructure
-```
+**Upon full repayment:**
 
-### Your options when notified
+- **Repayment**, outstanding financing is settled
+- **Structure unwound**, market positions are closed
+- **Collateral unlocked**, pledged holdings return to normal account operations
 
-1. **Add collateral**, Transfer additional eligible securities or cash into the account
-2. **Partial repayment**, Reduce the outstanding financing amount
-3. **Restructure**, Work with SyntheticFi and your advisor to adjust terms (if available)
-4. **Liquidation (last resort)**, If no action is taken, pledged holdings may be sold to restore required coverage
+Early repayment may be available with adjusted economics. Review terms before originating.
 
-SyntheticFi sends notifications by email and in-platform alerts. Advisors receive parallel notifications for client accounts they manage.
+</AccordionItem>
 
-**Important:** Margin events are not failures, they are a normal part of portfolio-backed financing. Proactive monitoring reduces the risk of forced liquidation.
+</AccordionGroup>
 
 ---
 
-## Repayment and closure
+## Summary
 
-### Standard repayment
-
-At the end of the term, you repay the **principal plus the agreed fixed cost**. Payment methods include:
-
-- ACH from a linked bank account
-- Journal of cash within the brokerage account
-- Wire transfer (for larger amounts)
-
-### Early closure
-
-If you repay before the scheduled end date, economics may differ from the original term sheet. Review early repayment terms before originating.
-
-### After closure
-
-- All locks removed
-- Financing marked closed in dashboard and statements
-- Tax reporting documents issued as applicable (consult your tax advisor)
+- Portfolio stays invested for the duration of the term
+- Cash is received upfront against pledged collateral
+- Repayment amount is fixed at origination
+- Risk is managed through ongoing monitoring and margin controls
 
 ---
 
-## Data and security flow
+## Next steps
 
-```
-[ Brokerage / Custodian ]  ←→  [ SyntheticFi Platform ]  ←→  [ Advisor Dashboard ]
-         ↑                              ↑
-    Holdings & balances            Structuring & monitoring
-```
-
-SyntheticFi reads portfolio data through secure, read-only (and where required, trading) integrations. Credentials are never stored in plain text; OAuth and API tokens follow industry standards. See [Authentication](../platform/authentication.md) and [Integrations overview](../integrations/overview.md).
-
----
-
-## Related reading
-
-- [Overview](./overview.md), Product introduction and key concepts
-- [Getting started](./getting-started.md), Onboarding steps
-- [Use cases](./use-cases.md), When to use portfolio liquidity
-- [FAQ](./faq.md), Common questions
-- [Troubleshooting](./troubleshooting.md), Resolve issues
+- [Overview](./overview.md), product introduction and key concepts
+- [Getting started](./getting-started.md), onboarding steps
+- [Use cases](./use-cases.md), common financing scenarios
+- [FAQ](./faq.md), quick answers

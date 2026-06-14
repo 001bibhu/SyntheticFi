@@ -22,7 +22,9 @@ Before you begin, confirm:
 
 ---
 
-## For financial advisors
+<RoleTabs>
+
+<template #advisors>
 
 ### Step 1: Register your firm
 
@@ -72,9 +74,9 @@ Use the dashboard to:
 
 Deep configuration options: [Admin guide](./admin-guide.md)
 
----
+</template>
 
-## For individual investors
+<template #investors>
 
 Individual investors typically work **through an advisor** or **direct enrollment** where available.
 
@@ -103,6 +105,10 @@ Where direct access is offered:
 
 **Timeline:** Identity verification same day; funding 1–5 business days after acceptance.
 
+</template>
+
+</RoleTabs>
+
 ---
 
 ## What to expect after onboarding
@@ -119,7 +125,7 @@ Where direct access is offered:
 
 ## Checklist before your first financing
 
-- [ ] Understand [how locking affects your portfolio](./how-it-works.md#what-locking-means)
+- [ ] Understand [how locking affects your portfolio](./how-it-works.md#step-2-lock-a-portion-of-the-portfolio)
 - [ ] Know your margin thresholds and how to respond
 - [ ] Confirm cash destination (bank account or brokerage)
 - [ ] Review [use cases](./use-cases.md) relevant to your situation
