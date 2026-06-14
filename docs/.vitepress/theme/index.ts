@@ -1,0 +1,26 @@
+import { h } from 'vue'
+import DefaultTheme from 'vitepress/theme'
+import FeedbackWidget from './FeedbackWidget.vue'
+import PageTracker from './PageTracker.vue'
+import HomePage from './HomePage.vue'
+import AnalyticsDashboard from './AnalyticsDashboard.vue'
+import SupportTicketForm from './SupportTicketForm.vue'
+import FeatureRequestForm from './FeatureRequestForm.vue'
+import './custom.css'
+
+export default {
+  extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('HomePage', HomePage)
+    app.component('FeedbackWidget', FeedbackWidget)
+    app.component('PageTracker', PageTracker)
+    app.component('AnalyticsDashboard', AnalyticsDashboard)
+    app.component('SupportTicketForm', SupportTicketForm)
+    app.component('FeatureRequestForm', FeatureRequestForm)
+  },
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'layout-bottom': () => [h(PageTracker), h(FeedbackWidget)],
+    })
+  },
+}
