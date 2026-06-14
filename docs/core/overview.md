@@ -20,9 +20,9 @@ In simple terms:
 
 The platform handles the full lifecycle, including collateral management, trade execution, and monitoring.
 
-![SyntheticFi overview flow](/assets/syntheticfi-overview-flow.png)
+![Turn your portfolio into liquidity with SyntheticFi](/assets/syntheticfi-overview-flow.png)
 
-*Illustration: Converting an investment portfolio into cash without selling assets.*
+*Illustration: Use your portfolio as collateral to receive cash today, repay at a known cost, and keep your investments.*
 
 ---
 
@@ -30,7 +30,9 @@ The platform handles the full lifecycle, including collateral management, trade 
 
 SyntheticFi is designed for both financial professionals and investors.
 
-### Financial advisors
+<OverviewAudienceTabs>
+
+<template #advisors>
 
 - Registered Investment Advisors (RIAs)
 - Wealth managers
@@ -42,7 +44,9 @@ They use SyntheticFi to:
 - Structure financing strategies
 - Monitor collateral and risk
 
-### Investors
+</template>
+
+<template #investors>
 
 - Individuals with large brokerage portfolios
 - High-net-worth investors
@@ -53,7 +57,9 @@ They use SyntheticFi to:
 - Avoid selling investments
 - Maintain long-term investment strategies
 
-### Financial service providers
+</template>
+
+<template #providers>
 
 - Mortgage brokers
 - Lending platforms
@@ -61,6 +67,10 @@ They use SyntheticFi to:
 They use SyntheticFi to:
 
 - Integrate portfolio-backed liquidity into financing workflows
+
+</template>
+
+</OverviewAudienceTabs>
 
 ---
 
@@ -131,25 +141,39 @@ Together, they create a fixed difference between what you receive today and what
 
 ## Key concepts
 
-### Liquidity
+<AccordionGroup>
+
+<AccordionItem title="Liquidity">
 
 Access to cash that can be used immediately. SyntheticFi converts portfolio value into usable liquidity.
 
-### Collateral
+</AccordionItem>
+
+<AccordionItem title="Collateral">
 
 Your investment portfolio is used to secure the financing.
 
-### Locking
+</AccordionItem>
+
+<AccordionItem title="Locking">
 
 A portion of your portfolio may be restricted while financing is active. This ensures the collateral remains available.
 
-### Fixed cost
+</AccordionItem>
+
+<AccordionItem title="Fixed cost">
 
 The total repayment amount is known upfront based on market conditions at the time of structuring.
 
-### Margin risk
+</AccordionItem>
+
+<AccordionItem title="Margin risk">
 
 If your portfolio value declines significantly, you may need to add collateral or reduce the financing amount.
+
+</AccordionItem>
+
+</AccordionGroup>
 
 ---
 
