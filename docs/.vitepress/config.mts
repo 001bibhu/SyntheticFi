@@ -12,7 +12,7 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['meta', { name: 'theme-color', content: '#0a1628' }],
+    ['meta', { name: 'theme-color', content: '#0392F1' }],
     ['link', { rel: 'icon', href: `${base}favicon.svg` }],
     [
       'link',
@@ -24,8 +24,12 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: { text: 'SyntheticFi' },
-    siteTitle: 'SyntheticFi',
+    logo: {
+      light: '/logo.svg',
+      dark: '/logo-light.svg',
+      alt: 'SyntheticFi',
+    },
+    siteTitle: 'Docs',
 
     nav: [
       {
@@ -129,7 +133,7 @@ export default defineConfig({
       options: { detailedView: true },
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com' }],
+    socialLinks: [{ icon: 'globe', link: 'https://www.syntheticfi.com/' }],
 
     footer: {
       message: 'SyntheticFi — financial infrastructure for portfolio liquidity.',

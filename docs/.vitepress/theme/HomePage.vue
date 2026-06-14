@@ -37,8 +37,8 @@ function href(path: string) {
       <div class="sf-hero-inner">
         <p class="sf-hero-eyebrow">Documentation</p>
         <h1>
-          Unlock portfolio liquidity
-          <span>without selling assets</span>
+          Access portfolio liquidity
+          <span>without selling your investments</span>
         </h1>
         <p class="sf-hero-sub">
           Guides, API references, and integrations for advisors, investors, and partners

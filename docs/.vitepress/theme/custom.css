@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --sf-brand: #3b82f6;
-  --sf-brand-dark: #2563eb;
-  --sf-brand-glow: rgba(59, 130, 246, 0.35);
+  --sf-brand: #0392f1;
+  --sf-brand-dark: #0277c9;
+  --sf-brand-glow: rgba(3, 146, 241, 0.35);
   --sf-hero-bg: #060d18;
   --sf-hero-surface: rgba(255, 255, 255, 0.04);
   --sf-text-muted: #94a3b8;
@@ -59,30 +59,38 @@
   text-align: center;
 }
 
+.VPNavBarTitle .logo {
+  height: 28px !important;
+}
+
 .sf-hero-eyebrow {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.9375rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--sf-brand);
-  margin-bottom: 1rem;
+  color: #e8f4fe;
+  background: rgba(3, 146, 241, 0.18);
+  border: 1px solid rgba(3, 146, 241, 0.35);
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  margin: 0 0 1.25rem;
 }
 
 .sf-hero h1 {
-  font-size: clamp(2.25rem, 5vw, 3.25rem);
+  font-size: clamp(2.125rem, 4.5vw, 3rem);
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
   margin: 0 0 1rem;
+  color: #f8fafc;
 }
 
 .sf-hero h1 span {
   display: block;
-  background: linear-gradient(135deg, #93c5fd, #6366f1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  margin-top: 0.35rem;
+  font-weight: 600;
+  color: #94c9f7;
 }
 
 .sf-hero-sub {
@@ -120,7 +128,7 @@
 }
 
 .sf-btn-primary {
-  background: linear-gradient(135deg, var(--sf-brand), #6366f1);
+  background: linear-gradient(135deg, var(--sf-brand), #0284c7);
   color: #fff;
   box-shadow: 0 4px 20px var(--sf-brand-glow);
 }
